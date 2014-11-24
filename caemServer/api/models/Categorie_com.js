@@ -31,10 +31,10 @@ module.exports = {
         columnName:'descriptif'
     },
     refcommerce:{
-        collection:'commerces',
-        via:'categorie_com',
-        dominant:true
+    collection:'commerce',
+    via:'refcommerce'
     },
+    
     catcom_centre_dinteret:{
         collection:'centre_Dinteret',
         via:'catCom'
